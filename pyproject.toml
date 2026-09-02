@@ -6,6 +6,6 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "groq>=1.7.0",
-    "openai>=3.7.0",
     "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
 ]

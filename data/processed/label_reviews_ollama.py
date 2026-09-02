@@ -8,7 +8,7 @@ Setup:
     2. Pull the model:  ollama pull gpt-oss:20b
     3. Make sure Ollama is running (it starts automatically after install,
        or run `ollama serve` manually)
-    4. pip install openai   (we use the OpenAI-compatible client Ollama exposes)
+    4. pip install requests
     5. python label_reviews_ollama.py
 
 Resumable: re-running skips reviews already labeled in the output file.
@@ -19,8 +19,10 @@ Output: labels_weak.jsonl    (one JSON object per review, appended as we go)
 import json
 import os
 import time
-from openai import OpenAI
+import requests
 
+OLLAMA_URL = "http://localhost:11434/api/chat"  # Ollama's native API - more reliable than
+                                                 # its OpenAI-compat shim for options like num_ctx
 MODEL = "gpt-oss:20b"
 BATCH_SIZE = 6            # smaller than the Groq version - local reasoning + generation is
                           # slower per-token, so smaller batches finish more reliably
@@ -84,26 +86,36 @@ def validate_label(obj):
     return True
 
 
-def call_model(client, batch):
-    """Sends one batch to the model, returns (valid_labels, success_bool)."""
+def call_model(_client_unused, batch):
+    """Sends one batch to the model via Ollama's native /api/chat endpoint,
+    returns (valid_labels, success_bool)."""
     user_prompt = build_user_prompt(batch)
     raw = None
-    finish_reason = None
+    done_reason = None
     for attempt in range(MAX_RETRIES_PER_BATCH):
         try:
-            resp = client.chat.completions.create(
-                model=MODEL,
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": user_prompt},
-                ],
-                temperature=0,
-                max_tokens=MAX_TOKENS,
-                response_format={"type": "json_object"},
-                extra_body={"options": {"num_ctx": 12000}},
+            resp = requests.post(
+                OLLAMA_URL,
+                json={
+                    "model": MODEL,
+                    "messages": [
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": user_prompt},
+                    ],
+                    "stream": False,
+                    "format": "json",  # Ollama's native structured-JSON mode
+                    "options": {
+                        "temperature": 0,
+                        "num_ctx": 12000,
+                        "num_predict": MAX_TOKENS,  # native name for max output tokens
+                    },
+                },
+                timeout=300,
             )
-            raw = resp.choices[0].message.content.strip()
-            finish_reason = resp.choices[0].finish_reason
+            resp.raise_for_status()
+            data = resp.json()
+            raw = data["message"]["content"].strip()
+            done_reason = data.get("done_reason")
             raw = raw.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
             parsed = json.loads(raw)
             labels = parsed["labels"] if isinstance(parsed, dict) else parsed
@@ -111,14 +123,14 @@ def call_model(client, batch):
             return valid, True
 
         except (json.JSONDecodeError, KeyError, TypeError) as e:
-            print(f"    parse failed ({e}), finish_reason={finish_reason}, "
+            print(f"    parse failed ({e}), done_reason={done_reason}, "
                   f"attempt {attempt+1}/{MAX_RETRIES_PER_BATCH}")
 
+        except requests.exceptions.ConnectionError:
+            raise ConnectionError("Can't connect to Ollama. Is it running? Try: ollama serve")
+
         except Exception as e:
-            msg = str(e)
-            if "connection" in msg.lower() or "refused" in msg.lower():
-                raise ConnectionError("Can't connect to Ollama. Is it running? Try: ollama serve")
-            print(f"    error - {msg}, attempt {attempt+1}/{MAX_RETRIES_PER_BATCH}")
+            print(f"    error - {e}, attempt {attempt+1}/{MAX_RETRIES_PER_BATCH}")
             time.sleep(3)
 
     return [], False
@@ -144,9 +156,6 @@ def label_batch_with_splitting(client, batch, depth=0):
 
 
 def main():
-    # Ollama exposes an OpenAI-compatible endpoint locally - no real API key needed
-    client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
-
     with open(INPUT_FILE, encoding="utf-8") as f:
         reviews = json.load(f)
 
@@ -164,7 +173,7 @@ def main():
 
     for i, batch in enumerate(batches):
         try:
-            valid_labels = label_batch_with_splitting(client, batch)
+            valid_labels = label_batch_with_splitting(None, batch)
         except ConnectionError as e:
             print(f"ERROR: {e}")
             out_f.close()
