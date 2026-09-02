@@ -1,10 +1,26 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Environment variables (never commit API keys)
+.env
 
-# Virtual environments
-.venv
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# uv
+.python-version
+
+# Large/raw data - don't bloat the git repo or leak the full Yelp dump
+data/raw/yelp_academic_dataset_review.json
+*.tar
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (usually too large for git - upload to Hugging Face Hub instead, like your dish classifier)
+models/*.bin
+models/*.safetensors
+models/checkpoint-*/
+
+# OS/editor cruft
+.DS_Store
+.idea/
