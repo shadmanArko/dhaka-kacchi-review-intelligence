@@ -27,7 +27,7 @@ BATCH_SIZE = 6            # smaller than the Groq version - local reasoning + ge
 INPUT_FILE = "data_processed.json"
 OUTPUT_FILE = "labels_weak.jsonl"
 MAX_RETRIES_PER_BATCH = 3
-MAX_TOKENS = 4000          # generous headroom - reasoning models can burn a lot of tokens
+MAX_TOKENS = 6000          # generous headroom - reasoning models can burn a lot of tokens
                            # "thinking" before the actual answer; no cost concern running locally
 
 ASPECTS = ["food_taste", "service", "price", "portion_size", "authenticity", "ambiance"]
@@ -84,6 +84,65 @@ def validate_label(obj):
     return True
 
 
+def call_model(client, batch):
+    """Sends one batch to the model, returns (valid_labels, success_bool)."""
+    user_prompt = build_user_prompt(batch)
+    raw = None
+    finish_reason = None
+    for attempt in range(MAX_RETRIES_PER_BATCH):
+        try:
+            resp = client.chat.completions.create(
+                model=MODEL,
+                messages=[
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": user_prompt},
+                ],
+                temperature=0,
+                max_tokens=MAX_TOKENS,
+                response_format={"type": "json_object"},
+                extra_body={"options": {"num_ctx": 12000}},
+            )
+            raw = resp.choices[0].message.content.strip()
+            finish_reason = resp.choices[0].finish_reason
+            raw = raw.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+            parsed = json.loads(raw)
+            labels = parsed["labels"] if isinstance(parsed, dict) else parsed
+            valid = [obj for obj in labels if validate_label(obj)]
+            return valid, True
+
+        except (json.JSONDecodeError, KeyError, TypeError) as e:
+            print(f"    parse failed ({e}), finish_reason={finish_reason}, "
+                  f"attempt {attempt+1}/{MAX_RETRIES_PER_BATCH}")
+
+        except Exception as e:
+            msg = str(e)
+            if "connection" in msg.lower() or "refused" in msg.lower():
+                raise ConnectionError("Can't connect to Ollama. Is it running? Try: ollama serve")
+            print(f"    error - {msg}, attempt {attempt+1}/{MAX_RETRIES_PER_BATCH}")
+            time.sleep(3)
+
+    return [], False
+
+
+def label_batch_with_splitting(client, batch, depth=0):
+    """Tries a batch; if it keeps failing (usually truncation), splits it in
+    half and retries each half - down to single reviews if needed - instead
+    of losing the whole batch."""
+    valid, success = call_model(client, batch)
+    if success:
+        return valid
+
+    if len(batch) == 1:
+        print(f"    giving up on review {batch[0]['review_id']} - unfixable at single-review size")
+        return []
+
+    print(f"    batch of {len(batch)} kept failing - splitting in half and retrying")
+    mid = len(batch) // 2
+    left = label_batch_with_splitting(client, batch[:mid], depth + 1)
+    right = label_batch_with_splitting(client, batch[mid:], depth + 1)
+    return left + right
+
+
 def main():
     # Ollama exposes an OpenAI-compatible endpoint locally - no real API key needed
     client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")
@@ -104,58 +163,21 @@ def main():
     start_time = time.time()
 
     for i, batch in enumerate(batches):
-        user_prompt = build_user_prompt(batch)
-        raw = None
-        finish_reason = None
-        for attempt in range(MAX_RETRIES_PER_BATCH):
-            try:
-                resp = client.chat.completions.create(
-                    model=MODEL,
-                    messages=[
-                        {"role": "system", "content": SYSTEM_PROMPT},
-                        {"role": "user", "content": user_prompt},
-                    ],
-                    temperature=0,
-                    max_tokens=MAX_TOKENS,
-                    response_format={"type": "json_object"},
-                    extra_body={"options": {"num_ctx": 8192}},
-                )
-                raw = resp.choices[0].message.content.strip()
-                finish_reason = resp.choices[0].finish_reason
-                raw = raw.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-                parsed = json.loads(raw)
-                labels = parsed["labels"] if isinstance(parsed, dict) else parsed
+        try:
+            valid_labels = label_batch_with_splitting(client, batch)
+        except ConnectionError as e:
+            print(f"ERROR: {e}")
+            out_f.close()
+            return
 
-                valid_count = 0
-                for obj in labels:
-                    if validate_label(obj):
-                        out_f.write(json.dumps(obj, ensure_ascii=False) + "\n")
-                        valid_count += 1
-                out_f.flush()
+        for obj in valid_labels:
+            out_f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+        out_f.flush()
 
-                elapsed = time.time() - start_time
-                rate = (i + 1) / elapsed * 60  # batches per minute
-                print(f"Batch {i+1}/{len(batches)}: labeled {valid_count}/{len(batch)} reviews "
-                      f"({rate:.1f} batches/min)")
-                break  # success
-
-            except (json.JSONDecodeError, KeyError, TypeError) as e:
-                print(f"Batch {i+1}/{len(batches)}: FAILED to parse output ({e}), "
-                      f"attempt {attempt+1}/{MAX_RETRIES_PER_BATCH}")
-                print(f"  finish_reason was: {finish_reason}")
-                print(f"  Raw output was: {(raw or '')[:300]!r}")
-                if attempt == MAX_RETRIES_PER_BATCH - 1:
-                    print("  Giving up on this batch.")
-
-            except Exception as e:
-                msg = str(e)
-                if "connection" in msg.lower() or "refused" in msg.lower():
-                    print("ERROR: Can't connect to Ollama. Is it running? Try: ollama serve")
-                    out_f.close()
-                    return
-                print(f"Batch {i+1}/{len(batches)}: error - {msg}, "
-                      f"attempt {attempt+1}/{MAX_RETRIES_PER_BATCH}")
-                time.sleep(3)
+        elapsed = time.time() - start_time
+        rate = (i + 1) / elapsed * 60  # batches per minute
+        print(f"Batch {i+1}/{len(batches)}: labeled {len(valid_labels)}/{len(batch)} reviews "
+              f"({rate:.1f} batches/min)")
 
     out_f.close()
     total_min = (time.time() - start_time) / 60
