@@ -1,0 +1,101 @@
+{
+  "per_aspect": {
+    "food_taste": {
+      "accuracy": 0.658307210031348,
+      "macro_f1": 0.4621134001546682,
+      "train_label_dist": {
+        "positive": 14687,
+        "not_mentioned": 1071,
+        "negative": 2350,
+        "neutral": 1410
+      },
+      "test_label_dist": {
+        "positive": 201,
+        "not_mentioned": 86,
+        "negative": 17,
+        "neutral": 15
+      }
+    },
+    "service": {
+      "accuracy": 0.6896551724137931,
+      "macro_f1": 0.47647341763918905,
+      "train_label_dist": {
+        "not_mentioned": 7860,
+        "negative": 2669,
+        "positive": 8419,
+        "neutral": 570
+      },
+      "test_label_dist": {
+        "negative": 16,
+        "positive": 104,
+        "not_mentioned": 191,
+        "neutral": 8
+      }
+    },
+    "price": {
+      "accuracy": 0.8087774294670846,
+      "macro_f1": 0.49710597665920075,
+      "train_label_dist": {
+        "not_mentioned": 14040,
+        "positive": 3447,
+        "negative": 1548,
+        "neutral": 483
+      },
+      "test_label_dist": {
+        "not_mentioned": 264,
+        "neutral": 21,
+        "positive": 26,
+        "negative": 8
+      }
+    },
+    "portion_size": {
+      "accuracy": 0.8181818181818182,
+      "macro_f1": 0.4433484006654738,
+      "train_label_dist": {
+        "positive": 2329,
+        "not_mentioned": 16121,
+        "negative": 850,
+        "neutral": 218
+      },
+      "test_label_dist": {
+        "not_mentioned": 271,
+        "positive": 32,
+        "negative": 10,
+        "neutral": 6
+      }
+    },
+    "authenticity": {
+      "accuracy": 0.8934169278996865,
+      "macro_f1": 0.4922759846974514,
+      "train_label_dist": {
+        "not_mentioned": 17055,
+        "positive": 1866,
+        "negative": 519,
+        "neutral": 78
+      },
+      "test_label_dist": {
+        "not_mentioned": 288,
+        "positive": 28,
+        "negative": 3
+      }
+    },
+    "ambiance": {
+      "accuracy": 0.7586206896551724,
+      "macro_f1": 0.5130003614348965,
+      "train_label_dist": {
+        "not_mentioned": 13043,
+        "positive": 4746,
+        "negative": 1137,
+        "neutral": 592
+      },
+      "test_label_dist": {
+        "positive": 62,
+        "not_mentioned": 229,
+        "neutral": 16,
+        "negative": 12
+      }
+    }
+  },
+  "overall_accuracy": 0.7711598746081504,
+  "overall_macro_f1": 0.48071959020847993
+}
