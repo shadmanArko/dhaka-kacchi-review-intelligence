@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhaka Kacchi Review Intelligence</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 640px;
+    margin: 60px auto;
+    padding: 0 20px;
+    background: #fafafa;
+    color: #1a1a1a;
+  }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .subtitle { color: #666; font-size: 14px; margin-bottom: 32px; }
+  textarea {
+    width: 100%;
+    min-height: 140px;
+    padding: 14px;
+    font-size: 15px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  button {
+    margin-top: 12px;
+    padding: 12px 24px;
+    font-size: 15px;
+    background: #1565c0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  button:hover { background: #0d47a1; }
+  button:disabled { background: #999; cursor: default; }
+  .results {
+    margin-top: 28px;
+    display: none;
+  }
+  .aspect-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  .aspect-name { font-weight: 600; text-transform: capitalize; }
+  .badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+  }
+  .badge.positive { background: #2e7d32; }
+  .badge.negative { background: #c62828; }
+  .badge.neutral { background: #f9a825; }
+  .badge.not_mentioned { background: #9e9e9e; }
+  .badge.uncertain { background: #6a1b9a; }
+  .confidence { color: #999; font-size: 12px; margin-left: 8px; }
+  .error { color: #c62828; margin-top: 12px; font-size: 14px; }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 13px;
+    color: #888;
+    line-height: 1.6;
+  }
+  footer a { color: #1565c0; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<h1>Dhaka Kacchi Review Intelligence</h1>
+<div class="subtitle">Paste a restaurant review to see the aspect-level sentiment breakdown.</div>
+
+<textarea id="reviewText" placeholder="e.g. The biryani was incredible, tasted just like home, but we waited forever and the portions were tiny for the price."></textarea>
+<br>
+<button id="submitBtn" onclick="analyze()">Analyze Review</button>
+<div id="errorMsg" class="error"></div>
+
+<div id="results" class="results"></div>
+
+<footer>
+  An aspect-based sentiment analysis pipeline built around <strong>Dhaka Kacchi</strong>, a Berlin
+  cloud kitchen — fine-tuned DistilBERT trained on weak-labeled Yelp reviews, refined with a small
+  set of hand-labeled gold examples. Predictions below ~65% confidence are shown as
+  <span class="badge uncertain" style="padding:2px 8px; font-size:11px;">uncertain</span>
+  rather than asserted outright.<br><br>
+  Full write-up, code, and methodology:
+  <a href="https://github.com/shadmanArko/dhaka-kacchi-review-intelligence" target="_blank">
+    github.com/shadmanArko/dhaka-kacchi-review-intelligence
+  </a>
+</footer>
+
+<script>
+async function analyze() {
+  const text = document.getElementById('reviewText').value.trim();
+  const btn = document.getElementById('submitBtn');
+  const errorMsg = document.getElementById('errorMsg');
+  const results = document.getElementById('results');
+
+  errorMsg.textContent = '';
+  results.style.display = 'none';
+
+  if (!text) {
+    errorMsg.textContent = 'Please enter a review first.';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Analyzing...';
+
+  try {
+    const resp = await fetch('/predict', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text })
+    });
+
+    if (!resp.ok) {
+      const err = await resp.json();
+      throw new Error(err.detail || 'Something went wrong.');
+    }
+
+    const data = await resp.json();
+    renderResults(data.results);
+  } catch (e) {
+    errorMsg.textContent = e.message;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Analyze Review';
+  }
+}
+
+function renderResults(results) {
+  const container = document.getElementById('results');
+  container.innerHTML = '';
+  for (const [aspect, info] of Object.entries(results)) {
+    const row = document.createElement('div');
+    row.className = 'aspect-row';
+    row.innerHTML = `
+      <span class="aspect-name">${aspect.replace('_', ' ')}</span>
+      <span>
+        <span class="badge ${info.sentiment}">${info.sentiment.replace('_', ' ')}</span>
+        <span class="confidence">${Math.round(info.confidence * 100)}%</span>
+      </span>
+    `;
+    container.appendChild(row);
+  }
+  container.style.display = 'block';
+}
+
+document.getElementById('reviewText').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter' && e.metaKey) analyze();
+});
+</script>
+
+</body>
+</html>

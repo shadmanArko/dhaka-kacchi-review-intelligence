@@ -1,11 +1,11 @@
 """
 Filters yelp_academic_dataset_review.json down to reviews for a
-pre-selected set of businesses (see matched_businesses.json).
+pre-selected set of businesses (see data/interim/matched_businesses.json).
 
 Usage:
     python filter_reviews.py /path/to/yelp_academic_dataset_review.json
 
-Produces: filtered_reviews.json  (JSON array, ready to upload)
+Produces: data/interim/filtered_reviews.json  (JSON array, ready to upload)
 """
 import json
 import sys
@@ -15,7 +15,7 @@ MAX_PER_BUSINESS = 150
 MAX_TOTAL = 20000
 
 def main(review_path):
-    with open("matched_businesses.json") as f:
+    with open("../data/interim/matched_businesses.json") as f:
         matched = json.load(f)
 
     # Prioritize open businesses first
@@ -50,11 +50,11 @@ def main(review_path):
             })
             per_business_count[bid] += 1
 
-    with open("filtered_reviews.json", "w", encoding="utf-8") as out:
+    with open("../data/interim/filtered_reviews.json", "w", encoding="utf-8") as out:
         json.dump(kept, out, ensure_ascii=False)
 
     print(f"Kept {len(kept)} reviews across {len(per_business_count)} businesses")
-    print("Saved to filtered_reviews.json")
+    print("Saved to data/interim/filtered_reviews.json")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

@@ -1,0 +1,902 @@
+[
+  {
+    "review_id": "nMu3LqA5ZFpkeUBr3m0O6w",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Most of the food I've had here is pretty good, sometimes dishes are a bit bland, but overall a pretty good vietnamese spot.",
+    "cuisine": "Vietnamese",
+    "stars": 4.0,
+    "word_count": 23
+  },
+  {
+    "review_id": "qINAEcny7-JHcq5u-EfBPg",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Delicious food and the staff was excellent. Couldn't have asked for a better date night. Oh, you have to try the Thai Tea. DamnGood!!",
+    "cuisine": "Thai",
+    "stars": 5.0,
+    "word_count": 24
+  },
+  {
+    "review_id": "i0HRHQEW3FwgTVfvBlP8bQ",
+    "aspect": "price",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "When there for the first time this week. Excellent food, authentic and fresh. Staff was also very nice and most of all the Buffett is great value for money! Highly recommend and will be back for sure...",
+    "cuisine": "Indian",
+    "stars": 5.0,
+    "word_count": 37
+  },
+  {
+    "review_id": "a3xlJQ5gCl972sucC1p18w",
+    "aspect": "price",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "My girlfriend was raving about Philly Indonesian food so we finally got the chance to make the drive down the turnpike from Jersey...WOW, unbelievably glad we did! To preface this, I have eaten at numerous Indonesian places in Queens, NY, and am a big fan of Asian comfort food (doesn't matter if it is Korean, Japanese, Chinese, Malaysian, or anything else I missed!) and have seen too many mediocre bowls of \"noodles\". Not gonna lie, the area threw me off a bit. Im not used to having to park a larger car backing into a tiny spot in a cramped street. I felt like my mirrors were going to become the casualties of the six young kids playing ball up and down the small row. The area was a little suspect, as we already passed over another place due to its really shady look neighborhood. I will venture for good food any day, but sometimes instinct tells you to keep moving! I gotta say, walking in felt like I had grown up down the block. It just emanated that local, unpretentious, warm feeling that is lost in some of the shiny, new, plasticky restaurants I see so often in North Jersey. 10 or so tables, small staff, a refrigerator filled with desserts, and the familiar smells of the feast to come fill your senses. We ordered fried wontons, mie komplit (#1 on noodle page), the spicy salted fish entree, and the pork combination (#18 on entrees page). The wontons were surprisingly thin and flavorful. Very crunchy, definitely different than the ones you usually get at a corner Chinese spot. The mie komplit comes with egg noodles, roasted pork, and ground beef amongst some bright greens and fried onions. You are given a separate bowl with chicken broth and some fish cake/meatballs floating playfully in it. It's up to you to either douse your noodles into a full on soup or just enough so everything retains its separate and delicious flavors and textures. I say drop in a little at a time, it really brings everything together in the most wonderful way. It was warm and delicious! The salted fish was exactly as advertised, spicy as all hell! Dude, these chiles are some demon reincarnate spitting hot fire onto all of your taste buds, at the same time meshing really well with what should be an overly salted piece of fried fish. They come with some tasty sides, a deep fried or soy sauce marinated egg (both hard boiled and equally worth having), and a substantial portion of rice. I found it a bit hellfire for my taste but my girlfriend loved it. The combination pork platter was a trio of swine...sausage slices, pork belly, and roasted pork. The sweet, salty, and savory combinations were on point, and the accompanying pickles, rice, eggs, and chile-potatoes are enough to leave you full and sated to the point of food coma. I would eat this and the mie komplit as a glut-lunch with take home for dinner any day of the week. We ended up ordering a fried chicken entree, another mie komplit, and rice cake curry to go, as well as two delicious homemade cookie desserts...yeah we may have overdone it a bit. All in all, one appetizer, six entrees, and two desserts...grand total of under sixty bucks! All that damn goodness for about 7 bucks a pop! Worth it...stop reading and go already!",
+    "cuisine": "Indonesian",
+    "stars": 5.0,
+    "word_count": 572
+  },
+  {
+    "review_id": "TDph0Nkr7kCAqrj-aDM3Mw",
+    "aspect": "ambiance",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Well crafted innovative offerings in a neat space. Visited for pri fix brunch. Tuna bagel and shrimp curry small plates were fantastic and inspired. Did not try cocktails but looked great and coffee was delicious. Overall service was good, but our server was exceptional.",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 44
+  },
+  {
+    "review_id": "2p3q8hppPOHqcI4xlIh3GA",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "negative",
+    "text": "Just ok. Nothing special going on here except the service which is excellent! Food I'd mediocre at best",
+    "cuisine": "Thai",
+    "stars": 2.0,
+    "word_count": 18
+  },
+  {
+    "review_id": "-XwV_Sykg9Vp5FI4OV1MEA",
+    "aspect": "price",
+    "true": "not_mentioned",
+    "predicted": "neutral",
+    "text": "I enjoyed the chicken with coconut rice, both times I was here. The flavor is great, but the chicken portion is not enough to fill me up, so I had to order an appetizer. I've been here twice and will definitely return. Low Prices, so with the app, I spent $11 plus tip. Also, the food is very spicy if you order anything with hot pepper on it. I love hot and spicy foods, but if you can't handle tobasco, you won't be able to handle their spice, as it is a little hotter than that.",
+    "cuisine": "Indonesian",
+    "stars": 4.0,
+    "word_count": 96
+  },
+  {
+    "review_id": "QnIh66aZuTHVkHHeDgFUdA",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "neutral",
+    "text": "Slow service, food was just OK. Had the beef and shrimp with vermacelli and lemon chicken. Only two shrimp the size of my pinky. Lemon chicken and beef were a step above Panda Express. 30+ minute wait for food.",
+    "cuisine": "Vietnamese",
+    "stars": 3.0,
+    "word_count": 39
+  },
+  {
+    "review_id": "0TT9UHR53GdvJ2cBf4gJNQ",
+    "aspect": "ambiance",
+    "true": "positive",
+    "predicted": "negative",
+    "text": "Great atmosphere. Service was so so. Food was not good. Rubbery calamari. Bread and oil on table was plain. Red sauce was bland.",
+    "cuisine": "Mediterranean",
+    "stars": 2.0,
+    "word_count": 23
+  },
+  {
+    "review_id": "KtFmvMyTqEyMUVBuZaS7Bg",
+    "aspect": "food_taste",
+    "true": "neutral",
+    "predicted": "positive",
+    "text": "Hands down the best Indian food in STL. Tried Indian restaurants all over the city, none of them even comes close to the authenticity of the taste that i experienced here. Each and every item on the buffet was outstanding, which makes it even more extraordinary considering buffet items general are bland and tasteless. Keep up the outstanding establishment, hope to come here more often",
+    "cuisine": "Pakistani",
+    "stars": 5.0,
+    "word_count": 65
+  },
+  {
+    "review_id": "GziHH-FOrAjI93fFt8nM9g",
+    "aspect": "ambiance",
+    "true": "positive",
+    "predicted": "neutral",
+    "text": "Still one of my favorite places to eat. Everything I've eaten has been delicious, the staff are friendly, and the atmosphere is quiet and homey. Every person I've taken there to eat has enjoyed the experience and asks to go back. Would definitely recommend!",
+    "cuisine": "Thai",
+    "stars": 5.0,
+    "word_count": 44
+  },
+  {
+    "review_id": "SQ1LzjTWr_slsvA31XKh0A",
+    "aspect": "service",
+    "true": "positive",
+    "predicted": "neutral",
+    "text": "Came with a friend for the lunch buffet. The service was fine and we were seated promptly. There was a pitcher of water on the table, which I appreciate as a serious drinker! The vegetable korma and garlic naan were very good, everything else was standard fare for an Indian buffet. Also there was a mango dessert dish that was new to me, and delicious! I love Indian, the location is convenient to the Indiana Convention Center, and I would go back if in Indianapolis.",
+    "cuisine": "Indian",
+    "stars": 4.0,
+    "word_count": 85
+  },
+  {
+    "review_id": "brWrVbzB_7yeRWNB-bkrFg",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "We really enjoyed our meal here. I came in w Husband and 2 littles and they were gracious and accommodating (prepped steamed veggies and a sauce just for kids on request). Decor is beautiful and peaceful. Many different level options for sitting. Food was great - husband had the giant steak with an unusual sauce and I had a pho (which I was graciously taught how to pronounce when I asked). Kiddos had the fresh spring rolls and ended up drinking the peanut sauce. Well priced wine list with a good portion- and I can't wait to come back for a lychee martini. Thanks Liam we'll be back!",
+    "cuisine": "Vietnamese",
+    "stars": 5.0,
+    "word_count": 108
+  },
+  {
+    "review_id": "qAi5letslbaiG9YR3Skw4w",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "neutral",
+    "text": "I've been to this location a handful of times - both dine in and takeout- the wait is usually minimal, and the restaurant is on the cleaner side. Service can be a tad slow, even when they aren't busy. The cocktails aren't the best I've ever had, and I personally don't think they are worth the price tag. The food is decent, it's slightly above average in flavor. The portions are decent. I make sure to know what I can and can't eat with my allergy and there have been times my food has the allergen in it. Even when I request a menu item that isn't made with that allergen. I'm not trying to be an inconvenience to the kitchen which is why I always ordered from the allergy list the hostess stand has on hand. Oh well - I still prefer to eat the Mongolian beef I make at home. Unless I'm in the area I don't think I'll be returning again.",
+    "cuisine": "Vietnamese",
+    "stars": 3.0,
+    "word_count": 164
+  },
+  {
+    "review_id": "TzFOCmYsqVXS7ym0IkV__Q",
+    "aspect": "price",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Love, Love, Love this place! I last ate their a few months ago. The decor is simple, but the food TOTALLY makes up for it. So far it's my favorite place. The wine list is not extensive, but they have good choices and decent prices. The food is very inexpensive for what you get. The food is soooo good! I love their mango chicken dish. They have a lunch and dinner menu. For lunch you can get a great meal for under $10. The wait staff we have every time have been very nice. Oh, my favorite part.... ask for their hot sauce (Masoula - sp?). It's awesome if you like hot stuff. Just ask for the hot sauce! Try it.... you won't regret it! They also have a sangria that's yummy. On a hot day, it's quite refreshing.",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 139
+  },
+  {
+    "review_id": "XGPPklWCsKoj1eWBHq0OSw",
+    "aspect": "price",
+    "true": "neutral",
+    "predicted": "positive",
+    "text": "This place is small. Lots of yellow. Has about 10 - 12 tables. I came and was impressed. The food is all home made and not frozen or bought and cooked. I ordered the chicken satay. Savory and soft. Loved it. The sauce and cucumbers were a nice touch and gives it that 5 star it deserves. The chicken wings were ok. The beef satay had rice cakes and some gooey yellow curry sauce to it. It was good but not my cup of tea. The next dish is the fried seafood noodles (Gangerang Keawteaw (I think that's how you spell-it). That was spectacular. Loved it. Also ordered a curry vermicelli noodle dish. This was very strong in flavor. Watery. Egg, some sort of flakey fried dough which reminded me of roti's. This for me was ok. Overall, the price is great, the food was great and the service was good. I'd recommend this place to try for those that like authentic foods. I'm gonna make this place one of my local favs in the neighborhood to eat. *wink* Gotta try all the food on the menu to satisfy my eyes and taste buds.",
+    "cuisine": "Indonesian",
+    "stars": 5.0,
+    "word_count": 194
+  },
+  {
+    "review_id": "HINDlf9MNJSycnBr5YTZvw",
+    "aspect": "food_taste",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "love the catfish, cheap, grilled fish, cheap,good service!!!!!!",
+    "cuisine": "Indonesian",
+    "stars": 5.0,
+    "word_count": 8
+  },
+  {
+    "review_id": "O8iOVqpOERUQQpLVzIm8gA",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Had Thai Ice Tea it was very very sweet. could drink even quater of thr drink. Ordered Penang curry and Yellow curry, they serve it with rice which server in the same dish as rice. Both curries were good.",
+    "cuisine": "Thai",
+    "stars": 4.0,
+    "word_count": 39
+  },
+  {
+    "review_id": "G-z5rCJsXTMvfU-hMsgoiw",
+    "aspect": "ambiance",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "I come here a lot. Just had a birthday here too. Love the girls dancing and the customer service is amazing and quick. Drinks are always so good here and the mood and setting is perfect!!!",
+    "cuisine": "Moroccan",
+    "stars": 5.0,
+    "word_count": 36
+  },
+  {
+    "review_id": "BKJ_pUPDRnsrPHnSfuw4Wg",
+    "aspect": "ambiance",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "fantastic food, don't let the mundane look of the mini strip mall bother you. Once inside a quaint & contemporary décor awaits and the food is very tasty . Lunch combos are small but they happily made me a little extra . Don't skip the Lamb Rogan Josh and the Goat Curry.",
+    "cuisine": "Thai",
+    "stars": 4.0,
+    "word_count": 52
+  },
+  {
+    "review_id": "2J9CBp0QzQhd9K59JjDaJg",
+    "aspect": "price",
+    "true": "negative",
+    "predicted": "not_mentioned",
+    "text": "Really good fried chicken and mac & cheese. Also a fan of the biscuits. Can't eat it too often because it's so unhealthy, but like it when I do. Only issue is that it's a bit expensive.",
+    "cuisine": "Thai",
+    "stars": 4.0,
+    "word_count": 37
+  },
+  {
+    "review_id": "qAi5letslbaiG9YR3Skw4w",
+    "aspect": "price",
+    "true": "positive",
+    "predicted": "neutral",
+    "text": "I've been to this location a handful of times - both dine in and takeout- the wait is usually minimal, and the restaurant is on the cleaner side. Service can be a tad slow, even when they aren't busy. The cocktails aren't the best I've ever had, and I personally don't think they are worth the price tag. The food is decent, it's slightly above average in flavor. The portions are decent. I make sure to know what I can and can't eat with my allergy and there have been times my food has the allergen in it. Even when I request a menu item that isn't made with that allergen. I'm not trying to be an inconvenience to the kitchen which is why I always ordered from the allergy list the hostess stand has on hand. Oh well - I still prefer to eat the Mongolian beef I make at home. Unless I'm in the area I don't think I'll be returning again.",
+    "cuisine": "Vietnamese",
+    "stars": 3.0,
+    "word_count": 164
+  },
+  {
+    "review_id": "OlHLn4DPMHWgWIKBtq33Dw",
+    "aspect": "authenticity",
+    "true": "negative",
+    "predicted": "not_mentioned",
+    "text": "Let me just say O-M-G. Ok, so the menu is several pages long and daunting but what else can you expect from a restaurant trying to bring so much greatness to the ethnically-diverse, dive-happy West Side of Indy? My husband mixes it up and orders something new at each visit and he is always impressed--he's had duck, tripe, various Pho items, Thai selections too. He loves the bubble tea. As for me, I am guilty of ordering the same things over and over (but I order lots of things!). The Saigon Chicken Wings are to die for--I've never experienced such sweet and sassy flavor on a drumstick. Seriously, the best wings I've had. I always order Pho. I love Vietnamese. I've had the beef flank, chicken, and vegetarian Pho options. I am addicted to the intensely \"raw\" beef broth and they don't skimp on flavor in the vegetarian Pho. Broth (of any kind) can be dull and bland but Saigon Restaurant does not allow such characteristics in their fabulous Pho broth. The accoutrements are always fresh--basil, bean sprouts, jalapeno, lime. Don't forget to pop those into your steamy hot bowl of soup for added freshness and flavor. Fresh Spring Rolls are also pretty decent too, but not as superb as the Pho. The service is genuine, never over-the top/goober-friendly/fake-smiles. Always just plain Good. Indy needed a go-to Pho spot and I can't think of a more deserving side of town for its location. The West Side always impresses with ethnic dives and diversity! One comment (and I'm sorry to have to do this): the Thai tea could use some revamping--It needs to be richer and stronger. They do, however, make up for it with superb Vietnamese coffee.",
+    "cuisine": "Vietnamese",
+    "stars": 5.0,
+    "word_count": 287
+  },
+  {
+    "review_id": "-vikaNfPLwSICFVBN3vDeg",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "I usually come here to get the banh mi. I believe it is the best in the world. I had my share of banh mi from California, Texas, and Atlanta. Always get it extra spicy with sriracha aoili. The bread is from Hi-do bakery! Today I came in for my usual banh mi, but Chef P told me to try his Phoritto. I heard about this in California but never tried it. He insist I add an egg to it also. I was a little iffy at first. Pho and EGG wrap like Wth right. All I got to say is BRAH! BRAH! It was not dry, yet it was not soupy like pho. The pho broth infused noodles reminds you of an actual bowl of Pho. The balance of Hoison to sriracha was on point, but the kick of the lime and cilantro sealed the deal. The banh mi is my favorite, but the Phoritto is not far behind.",
+    "cuisine": "Vietnamese",
+    "stars": 5.0,
+    "word_count": 160
+  },
+  {
+    "review_id": "qL_BNTtnBLRTbAlMx-QbaQ",
+    "aspect": "portion_size",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Love! Love! Love Sis. Muhammad's Kitchen! The food is excellent and I am always very satisfied with any meal that I get. My favorite is the fish hoagie. The hoagie is super big and enough for 2 people to share. This spot is very popular so sometimes the wait is long, but it is always well worth the wait. My advice to people is order your food in advance of your hungry point. If you order when you're hungry then you may have an issue.... LOL! Great food! Keep up the good work. Im definitely a fan:)",
+    "cuisine": "Halal",
+    "stars": 5.0,
+    "word_count": 97
+  },
+  {
+    "review_id": "brWrVbzB_7yeRWNB-bkrFg",
+    "aspect": "portion_size",
+    "true": "neutral",
+    "predicted": "positive",
+    "text": "We really enjoyed our meal here. I came in w Husband and 2 littles and they were gracious and accommodating (prepped steamed veggies and a sauce just for kids on request). Decor is beautiful and peaceful. Many different level options for sitting. Food was great - husband had the giant steak with an unusual sauce and I had a pho (which I was graciously taught how to pronounce when I asked). Kiddos had the fresh spring rolls and ended up drinking the peanut sauce. Well priced wine list with a good portion- and I can't wait to come back for a lychee martini. Thanks Liam we'll be back!",
+    "cuisine": "Vietnamese",
+    "stars": 5.0,
+    "word_count": 108
+  },
+  {
+    "review_id": "XdDTxjoSPXkXOs0-HaxA6w",
+    "aspect": "ambiance",
+    "true": "negative",
+    "predicted": "not_mentioned",
+    "text": "5 Star AUTHENTIC Jamaican food. Tougher location but the Jamaican vibes are worth a visit. We had them cater our wedding rehearsal dinner. All of the guests (most have never had jerk) were very impressed with the meal! Jerk pork, jerk chicken, rice & peas, beef patties, DG brand drinks; they have it all. We drive an hour and a half to stop at the walk up window just to enjoy the food. Orda di jerk grab a DG and enjoy di vibes, every ting is Irie!",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 87
+  },
+  {
+    "review_id": "-6YRkhN4CXOjhB6p30wjqQ",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "First experience with Ethiopian food. Yummers. Super nice people here. And the coffee....wow...it will bring me back.",
+    "cuisine": "Ethiopian",
+    "stars": 5.0,
+    "word_count": 17
+  },
+  {
+    "review_id": "3qesjJVg3n3JP-bJqzZerw",
+    "aspect": "portion_size",
+    "true": "negative",
+    "predicted": "neutral",
+    "text": "I love Mumbai Bistro! I work a few blocks away and their super fast, free delivery is a Godsend on those days I accidentally leave my lunch at home; I will admit that I sometimes accidentally-on-purpose leave my lunch at home these days just so I have an excuse to call the guys at Mumbai. The food is crazy cheap for Indian, even the worst things on the menu are still decently good, and the small portions keep my pigginess in check. The restaurant itself is reminiscent of a generic chain, but I actually think the food is quite good. Others have mentioned the nan and veggie samosas could be improved. I agree (and will add the tandoori chicken to that list), but they're still yummy. Their chicken biryani, chicken vindaloo, paneer masala, channa masala, tikka masala, mixed veg curry, and basmati are all delicious. I've probably been in or ordered delivery a dozen times since discovering them about 6 months ago and I have never had a disappointing meal. Contrary to some other reviews, I think the food is aromatic and overall very good - some dishes are lacking in heat, but it's nothing a little hot sauce can't remedy. The place is clean, the service is quick and friendly, the food rocks, it's cheap...what more could I ask for?",
+    "cuisine": "Indian",
+    "stars": 4.0,
+    "word_count": 221
+  },
+  {
+    "review_id": "9PN6QwlsbywU2ktlf2Q7RQ",
+    "aspect": "service",
+    "true": "positive",
+    "predicted": "negative",
+    "text": "A++ for food quality, selection, ambiance, service, and price. This is the best Thai on the Gulf Coast.",
+    "cuisine": "Thai",
+    "stars": 5.0,
+    "word_count": 18
+  },
+  {
+    "review_id": "ymVQu4TXXMMlADIS1XOW0g",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "I was excited about their grand opening. The cashier was really nice and the place looked great. But they didn't give us our ice for our desserts, and we were missing a drink. It was a bad first impression for me.",
+    "cuisine": "Vietnamese",
+    "stars": 3.0,
+    "word_count": 41
+  },
+  {
+    "review_id": "i0HRHQEW3FwgTVfvBlP8bQ",
+    "aspect": "service",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "When there for the first time this week. Excellent food, authentic and fresh. Staff was also very nice and most of all the Buffett is great value for money! Highly recommend and will be back for sure...",
+    "cuisine": "Indian",
+    "stars": 5.0,
+    "word_count": 37
+  },
+  {
+    "review_id": "I5Wgad5yfEmLYgg-x2YHCA",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "I'm not into writing long reviews. I'm not a fan of duck. I never order my food. I got the duck. It was amazing! Everything was great. So was the service.",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 31
+  },
+  {
+    "review_id": "rY-SP2cWuAbYO9b_73f8Mg",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "I like how you can see the cook , it's looks nice and clean, cute seating area. The people working was great. The food was good and tasty plus fresh . Just wish they devein the shrimps. Next time I will get the beef. I will be back",
+    "cuisine": "Halal",
+    "stars": 3.0,
+    "word_count": 48
+  },
+  {
+    "review_id": "uCsWwWnciC0BkuX0Fv1UWw",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Finally a Banh Mi place in Wilmington. Yummy sandwiches, fresh and flavorful. Lots of bubble tea options. The owner and staff were really friendly and cute little sitting area to eat. Was going to take a pic of my Banh Mi but ate it too fast, was dying to try it. Will be a regular spot!",
+    "cuisine": "Vietnamese",
+    "stars": 5.0,
+    "word_count": 56
+  },
+  {
+    "review_id": "Ug3iSr8L-3i4sdHzmVaffw",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "I had to stop and review this spot! The individuals who serve us at this place are very kind, and their food is always amazing! Most recently, I had the jerk chicken, dark, with rice and peas. Portions are nice, and it was Sooooo Bomb! I don't live in Indy anymore, and I make it a point to eat here when I visit. 55555 stars!!!!!",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 65
+  },
+  {
+    "review_id": "tPm4tE_1MrIjx-iIiTWHcw",
+    "aspect": "portion_size",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Simply wonderful! Very courteous service. Perfect balance of coconut and hot spice. Appropriately portioned for half the price.",
+    "cuisine": "Indonesian",
+    "stars": 4.0,
+    "word_count": 18
+  },
+  {
+    "review_id": "TzFOCmYsqVXS7ym0IkV__Q",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Love, Love, Love this place! I last ate their a few months ago. The decor is simple, but the food TOTALLY makes up for it. So far it's my favorite place. The wine list is not extensive, but they have good choices and decent prices. The food is very inexpensive for what you get. The food is soooo good! I love their mango chicken dish. They have a lunch and dinner menu. For lunch you can get a great meal for under $10. The wait staff we have every time have been very nice. Oh, my favorite part.... ask for their hot sauce (Masoula - sp?). It's awesome if you like hot stuff. Just ask for the hot sauce! Try it.... you won't regret it! They also have a sangria that's yummy. On a hot day, it's quite refreshing.",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 139
+  },
+  {
+    "review_id": "NviOlCchsdJd6k8Uq5tC0A",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "The food is delicious and well presented. We had a party of 10 for dinner and the staff stayed on top of all our orders and requests. Ambiance is nice, easy access plenty of parking. Definitely worth the drive. We will be going again and soon!",
+    "cuisine": "Persian",
+    "stars": 5.0,
+    "word_count": 46
+  },
+  {
+    "review_id": "2qcYrmuOOtm5dWLWyxQf-Q",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "This was possibly the best Indian lunch buffet we've had in the Indy area. Fo starters, the naan was fresh and delicious, and the mint chutney was definitely homemade. They also had the best selection we have seen, with several vegetarian and vegan dishes as well. The saag was creamy and delicious, and the goat curry was tasty as well. They had a great dessert selection, too, with mango yogurt, gulab jamun, rice pudding, etc. Finally, we received the best service we've experienced at an Indian buffet, and our server was super accommodating of our toddler.",
+    "cuisine": "Pakistani",
+    "stars": 5.0,
+    "word_count": 96
+  },
+  {
+    "review_id": "xslCOnMRQgCQjuOufVl1Gw",
+    "aspect": "food_taste",
+    "true": "negative",
+    "predicted": "positive",
+    "text": "This place is pretty lame if you are used to actual indian food. It costs the same amount of money for a small meal here, as it does for a full, hot, freshly cooked meal at an indian restaurant. The portions are tiny, I was not satisfied with what i was given at all, It lacked flavor, and the amount you get is a joke. I only weigh 130 lbs and it felt like half a meal to me. Its a nice idea, to have an indian restaurant on market street. But honestly this place is a crazy waste of your money, go to india grille, or some other real indian restaurant, there are plenty of options. I will say, if you are in a pinch, the food is absolutely edible, and really not all that bad. Its like some decent food you would find at the airport, with silly high prices for very small portions. But at the airport you would expect that, on market street... not so much.",
+    "cuisine": "Indian",
+    "stars": 1.0,
+    "word_count": 170
+  },
+  {
+    "review_id": "2J9CBp0QzQhd9K59JjDaJg",
+    "aspect": "food_taste",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "Really good fried chicken and mac & cheese. Also a fan of the biscuits. Can't eat it too often because it's so unhealthy, but like it when I do. Only issue is that it's a bit expensive.",
+    "cuisine": "Thai",
+    "stars": 4.0,
+    "word_count": 37
+  },
+  {
+    "review_id": "HFRd0RB5E15IrF0cOlCsDQ",
+    "aspect": "ambiance",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "We stopped by Kanella for breakfast and it was definitely one of my highlights on our recent trip to Philly. As soon as I read the breakfast menu online, I was salivating. We started with the dips of the day, which were traditional hummus, a potato garlic dip and a pumpkin feta dip. They were all great, but the pumpkin feta was out of this world good. The wife and I were trying to figure out the ingredients so that we could replicate it at home. For my main breakfast dish, I went with the homemade lamb merguez sausage and duck egg, which also included some spicy cured pepperoni and spicy yogurt. The wife chose the cumin scented tomato and pepper stew with poached eggs and grilled bread. Both plates were beautiful and delicious. For dessert (yes, we made room), we got the fillo pastry filled with semolina custard and the coconut/date/hazelnut cake. The perfect end to the perfect breakfast. Our server was great and very knowledgeable about the menu. I look forward to returning for dinner next time.",
+    "cuisine": "Mediterranean",
+    "stars": 5.0,
+    "word_count": 179
+  },
+  {
+    "review_id": "OlHLn4DPMHWgWIKBtq33Dw",
+    "aspect": "service",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "Let me just say O-M-G. Ok, so the menu is several pages long and daunting but what else can you expect from a restaurant trying to bring so much greatness to the ethnically-diverse, dive-happy West Side of Indy? My husband mixes it up and orders something new at each visit and he is always impressed--he's had duck, tripe, various Pho items, Thai selections too. He loves the bubble tea. As for me, I am guilty of ordering the same things over and over (but I order lots of things!). The Saigon Chicken Wings are to die for--I've never experienced such sweet and sassy flavor on a drumstick. Seriously, the best wings I've had. I always order Pho. I love Vietnamese. I've had the beef flank, chicken, and vegetarian Pho options. I am addicted to the intensely \"raw\" beef broth and they don't skimp on flavor in the vegetarian Pho. Broth (of any kind) can be dull and bland but Saigon Restaurant does not allow such characteristics in their fabulous Pho broth. The accoutrements are always fresh--basil, bean sprouts, jalapeno, lime. Don't forget to pop those into your steamy hot bowl of soup for added freshness and flavor. Fresh Spring Rolls are also pretty decent too, but not as superb as the Pho. The service is genuine, never over-the top/goober-friendly/fake-smiles. Always just plain Good. Indy needed a go-to Pho spot and I can't think of a more deserving side of town for its location. The West Side always impresses with ethnic dives and diversity! One comment (and I'm sorry to have to do this): the Thai tea could use some revamping--It needs to be richer and stronger. They do, however, make up for it with superb Vietnamese coffee.",
+    "cuisine": "Vietnamese",
+    "stars": 5.0,
+    "word_count": 287
+  },
+  {
+    "review_id": "Ug3iSr8L-3i4sdHzmVaffw",
+    "aspect": "portion_size",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "I had to stop and review this spot! The individuals who serve us at this place are very kind, and their food is always amazing! Most recently, I had the jerk chicken, dark, with rice and peas. Portions are nice, and it was Sooooo Bomb! I don't live in Indy anymore, and I make it a point to eat here when I visit. 55555 stars!!!!!",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 65
+  },
+  {
+    "review_id": "a3xlJQ5gCl972sucC1p18w",
+    "aspect": "authenticity",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "My girlfriend was raving about Philly Indonesian food so we finally got the chance to make the drive down the turnpike from Jersey...WOW, unbelievably glad we did! To preface this, I have eaten at numerous Indonesian places in Queens, NY, and am a big fan of Asian comfort food (doesn't matter if it is Korean, Japanese, Chinese, Malaysian, or anything else I missed!) and have seen too many mediocre bowls of \"noodles\". Not gonna lie, the area threw me off a bit. Im not used to having to park a larger car backing into a tiny spot in a cramped street. I felt like my mirrors were going to become the casualties of the six young kids playing ball up and down the small row. The area was a little suspect, as we already passed over another place due to its really shady look neighborhood. I will venture for good food any day, but sometimes instinct tells you to keep moving! I gotta say, walking in felt like I had grown up down the block. It just emanated that local, unpretentious, warm feeling that is lost in some of the shiny, new, plasticky restaurants I see so often in North Jersey. 10 or so tables, small staff, a refrigerator filled with desserts, and the familiar smells of the feast to come fill your senses. We ordered fried wontons, mie komplit (#1 on noodle page), the spicy salted fish entree, and the pork combination (#18 on entrees page). The wontons were surprisingly thin and flavorful. Very crunchy, definitely different than the ones you usually get at a corner Chinese spot. The mie komplit comes with egg noodles, roasted pork, and ground beef amongst some bright greens and fried onions. You are given a separate bowl with chicken broth and some fish cake/meatballs floating playfully in it. It's up to you to either douse your noodles into a full on soup or just enough so everything retains its separate and delicious flavors and textures. I say drop in a little at a time, it really brings everything together in the most wonderful way. It was warm and delicious! The salted fish was exactly as advertised, spicy as all hell! Dude, these chiles are some demon reincarnate spitting hot fire onto all of your taste buds, at the same time meshing really well with what should be an overly salted piece of fried fish. They come with some tasty sides, a deep fried or soy sauce marinated egg (both hard boiled and equally worth having), and a substantial portion of rice. I found it a bit hellfire for my taste but my girlfriend loved it. The combination pork platter was a trio of swine...sausage slices, pork belly, and roasted pork. The sweet, salty, and savory combinations were on point, and the accompanying pickles, rice, eggs, and chile-potatoes are enough to leave you full and sated to the point of food coma. I would eat this and the mie komplit as a glut-lunch with take home for dinner any day of the week. We ended up ordering a fried chicken entree, another mie komplit, and rice cake curry to go, as well as two delicious homemade cookie desserts...yeah we may have overdone it a bit. All in all, one appetizer, six entrees, and two desserts...grand total of under sixty bucks! All that damn goodness for about 7 bucks a pop! Worth it...stop reading and go already!",
+    "cuisine": "Indonesian",
+    "stars": 5.0,
+    "word_count": 572
+  },
+  {
+    "review_id": "Jg379t36ueQdkDaCZYMfVA",
+    "aspect": "service",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "I like this place, the last two times I have been in Philadelphia I have dined at this facility. Here are the things I disliked: - Lighting in this place is very subpar, you need to bring a flash light just to see the menu - The booth seating is okay, felt very cramped, especially with 4 people in a booth - Because space is limited on this cramped booth, adding large plates and dishes does not help the cause. There is a hidden guarantee before you enter the premises that you will either wear what you are eating, or at least manage to spill your food These are the foods I would not order again: - Paneer Pakoras: really dry and felt they were heated in the microwave, they had no flavor on their own. Needed to dunk them in a sauce just to eat more than one piece - Stay away from the Ghajer ka halwa (carrot dessert, sorry I can't explain it any better) I must have had the leftovers from the weekend because it actually tasted like the carrots were starting to rot and they still decided to use them, just plain awful. I would order these dishes again: - Malai Kofta, very delicious dish, however they are a little stingy on kofta ball to sauce ratio. - Chicken biryani - Ras Malai (Probably the best I had in any Indian restaurant) The waiter is friendly since there is only one guy working every time I have been there.",
+    "cuisine": "Indian",
+    "stars": 3.0,
+    "word_count": 253
+  },
+  {
+    "review_id": "SK9F4lKkCJvmrOErVGR0xw",
+    "aspect": "food_taste",
+    "true": "negative",
+    "predicted": "neutral",
+    "text": "If you are looking for something different and casual for dinner, check out this place. The space itself is very cute and welcoming. I thought the staff was wonderful. I got a veggie kabob which was healthy but not very tasty. My boyfriend got the beef kabob and was absolutely in love. Its BYOB and we enjoyed a very nice dinner there on a Friday night, I would definitely go back!",
+    "cuisine": "Afghan",
+    "stars": 4.0,
+    "word_count": 71
+  },
+  {
+    "review_id": "Q6lVIVqj7QgqatwyFP70mQ",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Great place for lunch. Also, they have the best strawberry cake I've ever had in my life.",
+    "cuisine": "Mediterranean",
+    "stars": 5.0,
+    "word_count": 17
+  },
+  {
+    "review_id": "9PN6QwlsbywU2ktlf2Q7RQ",
+    "aspect": "ambiance",
+    "true": "positive",
+    "predicted": "negative",
+    "text": "A++ for food quality, selection, ambiance, service, and price. This is the best Thai on the Gulf Coast.",
+    "cuisine": "Thai",
+    "stars": 5.0,
+    "word_count": 18
+  },
+  {
+    "review_id": "x50Ph4HUGCkEWjR9bQ6QEQ",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Went to Cheu Noodle Bar for first time yesterday. Was a decent place. I got the Crispy Sweet Potatoe Rangoon which was excellent! Also had the Miso Ramen which was decent. The area is pretty small and there is no where to stand while you are waiting to be seated.",
+    "cuisine": "Vietnamese",
+    "stars": 3.0,
+    "word_count": 50
+  },
+  {
+    "review_id": "a3xlJQ5gCl972sucC1p18w",
+    "aspect": "food_taste",
+    "true": "neutral",
+    "predicted": "not_mentioned",
+    "text": "My girlfriend was raving about Philly Indonesian food so we finally got the chance to make the drive down the turnpike from Jersey...WOW, unbelievably glad we did! To preface this, I have eaten at numerous Indonesian places in Queens, NY, and am a big fan of Asian comfort food (doesn't matter if it is Korean, Japanese, Chinese, Malaysian, or anything else I missed!) and have seen too many mediocre bowls of \"noodles\". Not gonna lie, the area threw me off a bit. Im not used to having to park a larger car backing into a tiny spot in a cramped street. I felt like my mirrors were going to become the casualties of the six young kids playing ball up and down the small row. The area was a little suspect, as we already passed over another place due to its really shady look neighborhood. I will venture for good food any day, but sometimes instinct tells you to keep moving! I gotta say, walking in felt like I had grown up down the block. It just emanated that local, unpretentious, warm feeling that is lost in some of the shiny, new, plasticky restaurants I see so often in North Jersey. 10 or so tables, small staff, a refrigerator filled with desserts, and the familiar smells of the feast to come fill your senses. We ordered fried wontons, mie komplit (#1 on noodle page), the spicy salted fish entree, and the pork combination (#18 on entrees page). The wontons were surprisingly thin and flavorful. Very crunchy, definitely different than the ones you usually get at a corner Chinese spot. The mie komplit comes with egg noodles, roasted pork, and ground beef amongst some bright greens and fried onions. You are given a separate bowl with chicken broth and some fish cake/meatballs floating playfully in it. It's up to you to either douse your noodles into a full on soup or just enough so everything retains its separate and delicious flavors and textures. I say drop in a little at a time, it really brings everything together in the most wonderful way. It was warm and delicious! The salted fish was exactly as advertised, spicy as all hell! Dude, these chiles are some demon reincarnate spitting hot fire onto all of your taste buds, at the same time meshing really well with what should be an overly salted piece of fried fish. They come with some tasty sides, a deep fried or soy sauce marinated egg (both hard boiled and equally worth having), and a substantial portion of rice. I found it a bit hellfire for my taste but my girlfriend loved it. The combination pork platter was a trio of swine...sausage slices, pork belly, and roasted pork. The sweet, salty, and savory combinations were on point, and the accompanying pickles, rice, eggs, and chile-potatoes are enough to leave you full and sated to the point of food coma. I would eat this and the mie komplit as a glut-lunch with take home for dinner any day of the week. We ended up ordering a fried chicken entree, another mie komplit, and rice cake curry to go, as well as two delicious homemade cookie desserts...yeah we may have overdone it a bit. All in all, one appetizer, six entrees, and two desserts...grand total of under sixty bucks! All that damn goodness for about 7 bucks a pop! Worth it...stop reading and go already!",
+    "cuisine": "Indonesian",
+    "stars": 5.0,
+    "word_count": 572
+  },
+  {
+    "review_id": "KXR5ZaMnJLh7qPSRN5Cjdg",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "neutral",
+    "text": "Came here because I was dying for a bahn mi, I got a pretty basic sandwich with no sauce on it, the veggies weren't pickled, and the meat was a joke. I also got service with attitude and the bare minimum interaction. Guess my search for a good bahn mi goes on.",
+    "cuisine": "Vietnamese",
+    "stars": 1.0,
+    "word_count": 52
+  },
+  {
+    "review_id": "2qcYrmuOOtm5dWLWyxQf-Q",
+    "aspect": "authenticity",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "This was possibly the best Indian lunch buffet we've had in the Indy area. Fo starters, the naan was fresh and delicious, and the mint chutney was definitely homemade. They also had the best selection we have seen, with several vegetarian and vegan dishes as well. The saag was creamy and delicious, and the goat curry was tasty as well. They had a great dessert selection, too, with mango yogurt, gulab jamun, rice pudding, etc. Finally, we received the best service we've experienced at an Indian buffet, and our server was super accommodating of our toddler.",
+    "cuisine": "Pakistani",
+    "stars": 5.0,
+    "word_count": 96
+  },
+  {
+    "review_id": "79EZhoEQUbW5r-PB6WZJuw",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "I had the lemongrass chicken vermicelli. Spicy and really perfectly seasoned. More fish sauce please! The chicken wasn't dry and rubbery as you typically find with this dish. I ordered the grilled pork rolls. They're fresh rolls with grilled pork and they come with fish sauce. Great! I tried a fried egg roll with pork. These were some of the best I have ever had. I also tried a fried chicken wing. These came with a couple sauces and were just plain unbelievable. Crispy and impossible to stop eating. The food here is creative and thoughtful even though sometimes uneven. Nice menu and good service.",
+    "cuisine": "Vietnamese",
+    "stars": 4.0,
+    "word_count": 105
+  },
+  {
+    "review_id": "0TT9UHR53GdvJ2cBf4gJNQ",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Great atmosphere. Service was so so. Food was not good. Rubbery calamari. Bread and oil on table was plain. Red sauce was bland.",
+    "cuisine": "Mediterranean",
+    "stars": 2.0,
+    "word_count": 23
+  },
+  {
+    "review_id": "bfxYfx4IhS6EbqjxCZYs_g",
+    "aspect": "service",
+    "true": "negative",
+    "predicted": "not_mentioned",
+    "text": "reading the reviews makes me wonder if i went to the same place as the other reviewers. i had reserved a table for one for 7.30p this eve. upon arrival, i was seated at the worst table in the house: the one by the entrance, in which the two seat options were either immediately behind the entry door, which would hit me each time it swung open, or on the opposite side of the table where the vent was blowing ferociously on me. i chose the latter as long as the waitress offered me the next open table. a deal was made, and thankfully carried out right after the bread was served. one waitress seemed to be catering to every table so it did take me a few minutes to receive my turn, a rundown of the menu, and the obligatory introductory bread. i opted for four pasta dishes, explaining to her to leave out the seafood in any of them due to my allergy. each came out quickly in succession, as per request, but the main carbonara dish came with the swordfish, rather than without, so i left much of it untouched. the rigatoni and gnocchi plates were solid; the pesto pasta was rich on basil, which was not to my liking, but not the fault of the restaurant. my waitress noticed the carbonara mishap and offered to bring me a new one, but i was ready for dessert. i ordered the almond panna cotta, which was this evening's highlight, easily. light yet filling and with fruit to complement the airiness. i was offered a complimentary zeppoli dish of doughnuts over nutella and did finish those, which also did please the palate. my three stars are for the table situation, the quick and almost abrupt nature of the waitress in serving me (no niceties or time to mingle/linger), and the cold, cold dining room. seriously: bring a parka. the food was overall presented well, through i will likely never head to nj (from philly) for dinner again as it's a far visit for a culinary scene that cannot compare to philly's.",
+    "cuisine": "Mediterranean",
+    "stars": 3.0,
+    "word_count": 352
+  },
+  {
+    "review_id": "LVTaQzBvLldmMRlTIT5dYw",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "negative",
+    "text": "Wait was a little longer for the food, but came out super fresh so I am ok with the wait! The Greek salad was delicious!! My boyfriend got the gyro and it was delicious! Their fries are super fresh and tasty.",
+    "cuisine": "Middle Eastern",
+    "stars": 5.0,
+    "word_count": 41
+  },
+  {
+    "review_id": "c5jOj0_2cyNibvDUWPtz-g",
+    "aspect": "price",
+    "true": "neutral",
+    "predicted": "negative",
+    "text": "Worst service, food and prices possible. I have never written a review before but I just could not let this one go by. I made a reservation here for my birthday. My friends and I arrived there and were kept standing by the door for a half hour. The place seemed full and there was no place for us to be seated. Not sure what the point of making the reservation was...aren't they supposed to hold a table for us??? After repeated requests to seat us we were taken to a dimly lit backroom by a service restroom. Service was slow and the waiter took his time to come and take our orders. We had to ask several times for a performance by the belly dancer before she came and did a cursory performance. The worst part of everything was the food which ranged from completely bland to inedible.I just could not understand the combination of a sweet pie with almonds and chicken with powdered sugar and then lamb with honey on top. Even thinking about the food from last night makes me want to throw up. \"Desert\" was bananas, apples and oranges in a basket with a knife to cut it ourselves!!!! After sitting through the worst possible service and food, we were stuck with a bill of $520 for 8 people which included an $80 tip!! I would recommend everyone to stay as far away as possible from this place.",
+    "cuisine": "Moroccan",
+    "stars": 1.0,
+    "word_count": 242
+  },
+  {
+    "review_id": "0KGMMbJvT_X71YeghJJHRQ",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "This place is my go to whenever I'm hungry. And don't want to cook. (Often) Their goat is to die for. The mongoo is also excellent. Ask for their smoothies. Owner and all workers are so nice. Pay them a visit. Will not be disappointed.",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 45
+  },
+  {
+    "review_id": "NviOlCchsdJd6k8Uq5tC0A",
+    "aspect": "portion_size",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "The food is delicious and well presented. We had a party of 10 for dinner and the staff stayed on top of all our orders and requests. Ambiance is nice, easy access plenty of parking. Definitely worth the drive. We will be going again and soon!",
+    "cuisine": "Persian",
+    "stars": 5.0,
+    "word_count": 46
+  },
+  {
+    "review_id": "a3xlJQ5gCl972sucC1p18w",
+    "aspect": "ambiance",
+    "true": "not_mentioned",
+    "predicted": "negative",
+    "text": "My girlfriend was raving about Philly Indonesian food so we finally got the chance to make the drive down the turnpike from Jersey...WOW, unbelievably glad we did! To preface this, I have eaten at numerous Indonesian places in Queens, NY, and am a big fan of Asian comfort food (doesn't matter if it is Korean, Japanese, Chinese, Malaysian, or anything else I missed!) and have seen too many mediocre bowls of \"noodles\". Not gonna lie, the area threw me off a bit. Im not used to having to park a larger car backing into a tiny spot in a cramped street. I felt like my mirrors were going to become the casualties of the six young kids playing ball up and down the small row. The area was a little suspect, as we already passed over another place due to its really shady look neighborhood. I will venture for good food any day, but sometimes instinct tells you to keep moving! I gotta say, walking in felt like I had grown up down the block. It just emanated that local, unpretentious, warm feeling that is lost in some of the shiny, new, plasticky restaurants I see so often in North Jersey. 10 or so tables, small staff, a refrigerator filled with desserts, and the familiar smells of the feast to come fill your senses. We ordered fried wontons, mie komplit (#1 on noodle page), the spicy salted fish entree, and the pork combination (#18 on entrees page). The wontons were surprisingly thin and flavorful. Very crunchy, definitely different than the ones you usually get at a corner Chinese spot. The mie komplit comes with egg noodles, roasted pork, and ground beef amongst some bright greens and fried onions. You are given a separate bowl with chicken broth and some fish cake/meatballs floating playfully in it. It's up to you to either douse your noodles into a full on soup or just enough so everything retains its separate and delicious flavors and textures. I say drop in a little at a time, it really brings everything together in the most wonderful way. It was warm and delicious! The salted fish was exactly as advertised, spicy as all hell! Dude, these chiles are some demon reincarnate spitting hot fire onto all of your taste buds, at the same time meshing really well with what should be an overly salted piece of fried fish. They come with some tasty sides, a deep fried or soy sauce marinated egg (both hard boiled and equally worth having), and a substantial portion of rice. I found it a bit hellfire for my taste but my girlfriend loved it. The combination pork platter was a trio of swine...sausage slices, pork belly, and roasted pork. The sweet, salty, and savory combinations were on point, and the accompanying pickles, rice, eggs, and chile-potatoes are enough to leave you full and sated to the point of food coma. I would eat this and the mie komplit as a glut-lunch with take home for dinner any day of the week. We ended up ordering a fried chicken entree, another mie komplit, and rice cake curry to go, as well as two delicious homemade cookie desserts...yeah we may have overdone it a bit. All in all, one appetizer, six entrees, and two desserts...grand total of under sixty bucks! All that damn goodness for about 7 bucks a pop! Worth it...stop reading and go already!",
+    "cuisine": "Indonesian",
+    "stars": 5.0,
+    "word_count": 572
+  },
+  {
+    "review_id": "VCFaGY3NuecKPSgQQObw_g",
+    "aspect": "food_taste",
+    "true": "neutral",
+    "predicted": "negative",
+    "text": "How to even begin to describe the let total let down that was lunch today. First, had to call back 3 times before we could place order, they just didn't seem to have any of the favorites. Fine, so finally it became a conversation about \"well, what do you have?\" Please note, it's not like we called at 2:28 for lunch, it was a reasonable 11:45 or so. Second, delivery was ridiculously late, maybe being from NYC I have higher expectations so I'll give them a pass on that...maybe. Third and the final straw, the food was HORRIBLE!!!!! I don't even understand how they felt that what they sent out was acceptable. How does a Dominican restaurant screw the most basic thing-Rice. It was stale and crunchy...and not in a bibimbap way....which I love but not with my chicken stew that was void of everything but chicken. The only redeeming item were the sweet plantains and I assume that was because it didn't require much intervention from the chef. Was this just an unusually bad day for a restaurant that thus far has been pretty good? I don't know but it will be quite a while before I return to find out.",
+    "cuisine": "Caribbean",
+    "stars": 1.0,
+    "word_count": 202
+  },
+  {
+    "review_id": "Kl-4f-7bWbQNzkruV1o5yQ",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "negative",
+    "text": "As I sit here and type I have been here close to 30 minutes. 15 minutes I spent waiting in line for the only cashier to take my order. You have three cashiers, use at least two. This is crazy. If I had not already paid I would leave. Very disappointing experience.",
+    "cuisine": "Mediterranean",
+    "stars": 1.0,
+    "word_count": 52
+  },
+  {
+    "review_id": "xslCOnMRQgCQjuOufVl1Gw",
+    "aspect": "price",
+    "true": "not_mentioned",
+    "predicted": "neutral",
+    "text": "This place is pretty lame if you are used to actual indian food. It costs the same amount of money for a small meal here, as it does for a full, hot, freshly cooked meal at an indian restaurant. The portions are tiny, I was not satisfied with what i was given at all, It lacked flavor, and the amount you get is a joke. I only weigh 130 lbs and it felt like half a meal to me. Its a nice idea, to have an indian restaurant on market street. But honestly this place is a crazy waste of your money, go to india grille, or some other real indian restaurant, there are plenty of options. I will say, if you are in a pinch, the food is absolutely edible, and really not all that bad. Its like some decent food you would find at the airport, with silly high prices for very small portions. But at the airport you would expect that, on market street... not so much.",
+    "cuisine": "Indian",
+    "stars": 1.0,
+    "word_count": 170
+  },
+  {
+    "review_id": "VftUFf0hxK8mLFCzROyt8g",
+    "aspect": "food_taste",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "This place now called Thai Smiles is a gem. It is a regular place for us to eat now. And we are never disappointed . Food is fresh, atmosphere is great, very clean and always fresh flowers on the tables. Check it out. We are fortunate to have such a fantastic place un our back yard. I always get the garlic and pepper checken. Awesome!! :-) :-)",
+    "cuisine": "Thai",
+    "stars": 5.0,
+    "word_count": 67
+  },
+  {
+    "review_id": "bfxYfx4IhS6EbqjxCZYs_g",
+    "aspect": "portion_size",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "reading the reviews makes me wonder if i went to the same place as the other reviewers. i had reserved a table for one for 7.30p this eve. upon arrival, i was seated at the worst table in the house: the one by the entrance, in which the two seat options were either immediately behind the entry door, which would hit me each time it swung open, or on the opposite side of the table where the vent was blowing ferociously on me. i chose the latter as long as the waitress offered me the next open table. a deal was made, and thankfully carried out right after the bread was served. one waitress seemed to be catering to every table so it did take me a few minutes to receive my turn, a rundown of the menu, and the obligatory introductory bread. i opted for four pasta dishes, explaining to her to leave out the seafood in any of them due to my allergy. each came out quickly in succession, as per request, but the main carbonara dish came with the swordfish, rather than without, so i left much of it untouched. the rigatoni and gnocchi plates were solid; the pesto pasta was rich on basil, which was not to my liking, but not the fault of the restaurant. my waitress noticed the carbonara mishap and offered to bring me a new one, but i was ready for dessert. i ordered the almond panna cotta, which was this evening's highlight, easily. light yet filling and with fruit to complement the airiness. i was offered a complimentary zeppoli dish of doughnuts over nutella and did finish those, which also did please the palate. my three stars are for the table situation, the quick and almost abrupt nature of the waitress in serving me (no niceties or time to mingle/linger), and the cold, cold dining room. seriously: bring a parka. the food was overall presented well, through i will likely never head to nj (from philly) for dinner again as it's a far visit for a culinary scene that cannot compare to philly's.",
+    "cuisine": "Mediterranean",
+    "stars": 3.0,
+    "word_count": 352
+  },
+  {
+    "review_id": "OlHLn4DPMHWgWIKBtq33Dw",
+    "aspect": "food_taste",
+    "true": "neutral",
+    "predicted": "positive",
+    "text": "Let me just say O-M-G. Ok, so the menu is several pages long and daunting but what else can you expect from a restaurant trying to bring so much greatness to the ethnically-diverse, dive-happy West Side of Indy? My husband mixes it up and orders something new at each visit and he is always impressed--he's had duck, tripe, various Pho items, Thai selections too. He loves the bubble tea. As for me, I am guilty of ordering the same things over and over (but I order lots of things!). The Saigon Chicken Wings are to die for--I've never experienced such sweet and sassy flavor on a drumstick. Seriously, the best wings I've had. I always order Pho. I love Vietnamese. I've had the beef flank, chicken, and vegetarian Pho options. I am addicted to the intensely \"raw\" beef broth and they don't skimp on flavor in the vegetarian Pho. Broth (of any kind) can be dull and bland but Saigon Restaurant does not allow such characteristics in their fabulous Pho broth. The accoutrements are always fresh--basil, bean sprouts, jalapeno, lime. Don't forget to pop those into your steamy hot bowl of soup for added freshness and flavor. Fresh Spring Rolls are also pretty decent too, but not as superb as the Pho. The service is genuine, never over-the top/goober-friendly/fake-smiles. Always just plain Good. Indy needed a go-to Pho spot and I can't think of a more deserving side of town for its location. The West Side always impresses with ethnic dives and diversity! One comment (and I'm sorry to have to do this): the Thai tea could use some revamping--It needs to be richer and stronger. They do, however, make up for it with superb Vietnamese coffee.",
+    "cuisine": "Vietnamese",
+    "stars": 5.0,
+    "word_count": 287
+  },
+  {
+    "review_id": "yBzLalAg0unlA3cQuNBb7w",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Good food, terrible service. I was running errands and stopped by for a quick bite by myself. I sat at a 2 top next to the window and then moved over to a 4 top because the table was in direct sun and really warm. The entire restaurant was 25% full at best with 6-8 vacant tables and the owner came and told me I couldn't sit there because it was just me. Rude. Moving on, my spring rolls were awesome and my stir fried chicken bowl was ok, a little too much gravy on the chicken. I waited a good 10-15 minutes after I was done for the server and owner to notice I was still waiting for a box. I asked for the check and she never returned. I finally waited in line at the counter and paid . For what should have been a very quick lunch turned into more waiting than anything else on what was not a busy time. Perhaps take out is a better option here.",
+    "cuisine": "Vietnamese",
+    "stars": 3.0,
+    "word_count": 172
+  },
+  {
+    "review_id": "qAi5letslbaiG9YR3Skw4w",
+    "aspect": "ambiance",
+    "true": "not_mentioned",
+    "predicted": "negative",
+    "text": "I've been to this location a handful of times - both dine in and takeout- the wait is usually minimal, and the restaurant is on the cleaner side. Service can be a tad slow, even when they aren't busy. The cocktails aren't the best I've ever had, and I personally don't think they are worth the price tag. The food is decent, it's slightly above average in flavor. The portions are decent. I make sure to know what I can and can't eat with my allergy and there have been times my food has the allergen in it. Even when I request a menu item that isn't made with that allergen. I'm not trying to be an inconvenience to the kitchen which is why I always ordered from the allergy list the hostess stand has on hand. Oh well - I still prefer to eat the Mongolian beef I make at home. Unless I'm in the area I don't think I'll be returning again.",
+    "cuisine": "Vietnamese",
+    "stars": 3.0,
+    "word_count": 164
+  },
+  {
+    "review_id": "HraiHzHPz897J9jCx2xqqQ",
+    "aspect": "ambiance",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "I have been to this restaurant several times when I am in town. Sometimes, I will make my way from LA or San Diego just to stop by the beach and Thai food. I'm Thai and it's hard to find a good Thai restaurant to my standard. The quality of food is higher than many Thai restaurants I've been to. My favorite dish is Seafood Spicy fried Noodle! I enjoy New Zealand Mussels, shrimps and they throw crab claws in this dish. It's fancy and delicious! Staff always work so hard to get customers in and out quickly. Friday and Saturday are always packed. The service is fast and excellent. I highly recommend Siam Elephant and it always is my favorite Thai restaurant.",
+    "cuisine": "Thai",
+    "stars": 5.0,
+    "word_count": 123
+  },
+  {
+    "review_id": "baOG9lemR8jo1z7DsHHjrw",
+    "aspect": "portion_size",
+    "true": "negative",
+    "predicted": "positive",
+    "text": "For a zabiha option, better than the steak and cheeses at Saads with fries that are just as delicious. Small but comfortable, not too long a wait, nice staff, delicious food. BBQ chicken calzone was the incredible, next time I'm getting the cheeseburger. Each portion is enough to tide you over for two days. Definitely going back.",
+    "cuisine": "Mediterranean",
+    "stars": 4.0,
+    "word_count": 57
+  },
+  {
+    "review_id": "a3xlJQ5gCl972sucC1p18w",
+    "aspect": "portion_size",
+    "true": "negative",
+    "predicted": "not_mentioned",
+    "text": "My girlfriend was raving about Philly Indonesian food so we finally got the chance to make the drive down the turnpike from Jersey...WOW, unbelievably glad we did! To preface this, I have eaten at numerous Indonesian places in Queens, NY, and am a big fan of Asian comfort food (doesn't matter if it is Korean, Japanese, Chinese, Malaysian, or anything else I missed!) and have seen too many mediocre bowls of \"noodles\". Not gonna lie, the area threw me off a bit. Im not used to having to park a larger car backing into a tiny spot in a cramped street. I felt like my mirrors were going to become the casualties of the six young kids playing ball up and down the small row. The area was a little suspect, as we already passed over another place due to its really shady look neighborhood. I will venture for good food any day, but sometimes instinct tells you to keep moving! I gotta say, walking in felt like I had grown up down the block. It just emanated that local, unpretentious, warm feeling that is lost in some of the shiny, new, plasticky restaurants I see so often in North Jersey. 10 or so tables, small staff, a refrigerator filled with desserts, and the familiar smells of the feast to come fill your senses. We ordered fried wontons, mie komplit (#1 on noodle page), the spicy salted fish entree, and the pork combination (#18 on entrees page). The wontons were surprisingly thin and flavorful. Very crunchy, definitely different than the ones you usually get at a corner Chinese spot. The mie komplit comes with egg noodles, roasted pork, and ground beef amongst some bright greens and fried onions. You are given a separate bowl with chicken broth and some fish cake/meatballs floating playfully in it. It's up to you to either douse your noodles into a full on soup or just enough so everything retains its separate and delicious flavors and textures. I say drop in a little at a time, it really brings everything together in the most wonderful way. It was warm and delicious! The salted fish was exactly as advertised, spicy as all hell! Dude, these chiles are some demon reincarnate spitting hot fire onto all of your taste buds, at the same time meshing really well with what should be an overly salted piece of fried fish. They come with some tasty sides, a deep fried or soy sauce marinated egg (both hard boiled and equally worth having), and a substantial portion of rice. I found it a bit hellfire for my taste but my girlfriend loved it. The combination pork platter was a trio of swine...sausage slices, pork belly, and roasted pork. The sweet, salty, and savory combinations were on point, and the accompanying pickles, rice, eggs, and chile-potatoes are enough to leave you full and sated to the point of food coma. I would eat this and the mie komplit as a glut-lunch with take home for dinner any day of the week. We ended up ordering a fried chicken entree, another mie komplit, and rice cake curry to go, as well as two delicious homemade cookie desserts...yeah we may have overdone it a bit. All in all, one appetizer, six entrees, and two desserts...grand total of under sixty bucks! All that damn goodness for about 7 bucks a pop! Worth it...stop reading and go already!",
+    "cuisine": "Indonesian",
+    "stars": 5.0,
+    "word_count": 572
+  },
+  {
+    "review_id": "3qesjJVg3n3JP-bJqzZerw",
+    "aspect": "service",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "I love Mumbai Bistro! I work a few blocks away and their super fast, free delivery is a Godsend on those days I accidentally leave my lunch at home; I will admit that I sometimes accidentally-on-purpose leave my lunch at home these days just so I have an excuse to call the guys at Mumbai. The food is crazy cheap for Indian, even the worst things on the menu are still decently good, and the small portions keep my pigginess in check. The restaurant itself is reminiscent of a generic chain, but I actually think the food is quite good. Others have mentioned the nan and veggie samosas could be improved. I agree (and will add the tandoori chicken to that list), but they're still yummy. Their chicken biryani, chicken vindaloo, paneer masala, channa masala, tikka masala, mixed veg curry, and basmati are all delicious. I've probably been in or ordered delivery a dozen times since discovering them about 6 months ago and I have never had a disappointing meal. Contrary to some other reviews, I think the food is aromatic and overall very good - some dishes are lacking in heat, but it's nothing a little hot sauce can't remedy. The place is clean, the service is quick and friendly, the food rocks, it's cheap...what more could I ask for?",
+    "cuisine": "Indian",
+    "stars": 4.0,
+    "word_count": 221
+  },
+  {
+    "review_id": "3qesjJVg3n3JP-bJqzZerw",
+    "aspect": "ambiance",
+    "true": "positive",
+    "predicted": "not_mentioned",
+    "text": "I love Mumbai Bistro! I work a few blocks away and their super fast, free delivery is a Godsend on those days I accidentally leave my lunch at home; I will admit that I sometimes accidentally-on-purpose leave my lunch at home these days just so I have an excuse to call the guys at Mumbai. The food is crazy cheap for Indian, even the worst things on the menu are still decently good, and the small portions keep my pigginess in check. The restaurant itself is reminiscent of a generic chain, but I actually think the food is quite good. Others have mentioned the nan and veggie samosas could be improved. I agree (and will add the tandoori chicken to that list), but they're still yummy. Their chicken biryani, chicken vindaloo, paneer masala, channa masala, tikka masala, mixed veg curry, and basmati are all delicious. I've probably been in or ordered delivery a dozen times since discovering them about 6 months ago and I have never had a disappointing meal. Contrary to some other reviews, I think the food is aromatic and overall very good - some dishes are lacking in heat, but it's nothing a little hot sauce can't remedy. The place is clean, the service is quick and friendly, the food rocks, it's cheap...what more could I ask for?",
+    "cuisine": "Indian",
+    "stars": 4.0,
+    "word_count": 221
+  },
+  {
+    "review_id": "LTUVDvgq1VmE-Ho6bp0Kcg",
+    "aspect": "authenticity",
+    "true": "not_mentioned",
+    "predicted": "negative",
+    "text": "We were very excited to be trying this Thai restaurant that had a good number of reviews and 4 stars. So......I'm not sure what part of Thailand the owners are from but there is NO love in there food. We ordered Tom Yum and it was bland so much so that we needed to add salt.....yuck!! I've traveled all over Thailand and this restaurant has dumbed down the true essence of real Thai food. The soup was lacking Tamarind and Fish Sauce. We then ordered Panang Curry with pork. It came to us and at first I thought we ordered vegetarian Panang because except for the 6 pieces of pork the entire dish was filled with green beans. Come on.....you are using this vegetable as a filler!!! Give me pork!!!! The sauce also was lacking so much flavor. If we did not order to go I would have returned everything. Not so Thai!!",
+    "cuisine": "Thai",
+    "stars": 1.0,
+    "word_count": 153
+  },
+  {
+    "review_id": "9PN6QwlsbywU2ktlf2Q7RQ",
+    "aspect": "price",
+    "true": "positive",
+    "predicted": "negative",
+    "text": "A++ for food quality, selection, ambiance, service, and price. This is the best Thai on the Gulf Coast.",
+    "cuisine": "Thai",
+    "stars": 5.0,
+    "word_count": 18
+  },
+  {
+    "review_id": "XdDTxjoSPXkXOs0-HaxA6w",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "5 Star AUTHENTIC Jamaican food. Tougher location but the Jamaican vibes are worth a visit. We had them cater our wedding rehearsal dinner. All of the guests (most have never had jerk) were very impressed with the meal! Jerk pork, jerk chicken, rice & peas, beef patties, DG brand drinks; they have it all. We drive an hour and a half to stop at the walk up window just to enjoy the food. Orda di jerk grab a DG and enjoy di vibes, every ting is Irie!",
+    "cuisine": "Caribbean",
+    "stars": 5.0,
+    "word_count": 87
+  },
+  {
+    "review_id": "yBzLalAg0unlA3cQuNBb7w",
+    "aspect": "service",
+    "true": "neutral",
+    "predicted": "negative",
+    "text": "Good food, terrible service. I was running errands and stopped by for a quick bite by myself. I sat at a 2 top next to the window and then moved over to a 4 top because the table was in direct sun and really warm. The entire restaurant was 25% full at best with 6-8 vacant tables and the owner came and told me I couldn't sit there because it was just me. Rude. Moving on, my spring rolls were awesome and my stir fried chicken bowl was ok, a little too much gravy on the chicken. I waited a good 10-15 minutes after I was done for the server and owner to notice I was still waiting for a box. I asked for the check and she never returned. I finally waited in line at the counter and paid . For what should have been a very quick lunch turned into more waiting than anything else on what was not a busy time. Perhaps take out is a better option here.",
+    "cuisine": "Vietnamese",
+    "stars": 3.0,
+    "word_count": 172
+  },
+  {
+    "review_id": "WgSfTrU40n4ZsLrURNdR3w",
+    "aspect": "portion_size",
+    "true": "not_mentioned",
+    "predicted": "neutral",
+    "text": "Hands down the best falafel in the city. Not only is it amazingly good but you get enough food for almost 2 meals and it's all for just $10.(this price has been stable for some time but it can vary. Safe bet would be to hand him a $20) There's no ordering so you line up, receive your container, and pay but I've never had a bad experience from whatever he decided to dish up for the day. However, be warned, you will smell like char grilled chicken and garlic for the rest of the day. It's a small price to pay for this awesome food. The only negative thing I'll say about this truck is that you should expect to wait. He does not rush his food and if there are 10 people in line a 30+ minute wait is not out of the question. I've timed him at about 3-4 minutes an order.",
+    "cuisine": "Middle Eastern",
+    "stars": 5.0,
+    "word_count": 155
+  },
+  {
+    "review_id": "Jg379t36ueQdkDaCZYMfVA",
+    "aspect": "food_taste",
+    "true": "neutral",
+    "predicted": "positive",
+    "text": "I like this place, the last two times I have been in Philadelphia I have dined at this facility. Here are the things I disliked: - Lighting in this place is very subpar, you need to bring a flash light just to see the menu - The booth seating is okay, felt very cramped, especially with 4 people in a booth - Because space is limited on this cramped booth, adding large plates and dishes does not help the cause. There is a hidden guarantee before you enter the premises that you will either wear what you are eating, or at least manage to spill your food These are the foods I would not order again: - Paneer Pakoras: really dry and felt they were heated in the microwave, they had no flavor on their own. Needed to dunk them in a sauce just to eat more than one piece - Stay away from the Ghajer ka halwa (carrot dessert, sorry I can't explain it any better) I must have had the leftovers from the weekend because it actually tasted like the carrots were starting to rot and they still decided to use them, just plain awful. I would order these dishes again: - Malai Kofta, very delicious dish, however they are a little stingy on kofta ball to sauce ratio. - Chicken biryani - Ras Malai (Probably the best I had in any Indian restaurant) The waiter is friendly since there is only one guy working every time I have been there.",
+    "cuisine": "Indian",
+    "stars": 3.0,
+    "word_count": 253
+  },
+  {
+    "review_id": "2p3q8hppPOHqcI4xlIh3GA",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "Just ok. Nothing special going on here except the service which is excellent! Food I'd mediocre at best",
+    "cuisine": "Thai",
+    "stars": 2.0,
+    "word_count": 18
+  },
+  {
+    "review_id": "baOG9lemR8jo1z7DsHHjrw",
+    "aspect": "service",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "For a zabiha option, better than the steak and cheeses at Saads with fries that are just as delicious. Small but comfortable, not too long a wait, nice staff, delicious food. BBQ chicken calzone was the incredible, next time I'm getting the cheeseburger. Each portion is enough to tide you over for two days. Definitely going back.",
+    "cuisine": "Mediterranean",
+    "stars": 4.0,
+    "word_count": 57
+  },
+  {
+    "review_id": "9KFMEeCKhnPpLZSeHYu0yA",
+    "aspect": "ambiance",
+    "true": "positive",
+    "predicted": "neutral",
+    "text": "One thing that comes to mind after entering the place. Clean! It does not smell like an Indian restaurant like Sitar, Karma or Samosa. The place has a seating for only 12-15 and the place is perfect for a quick in and out buffet. I would recommend this place only if the group is small and do not care about the ambiance as much as the taste of the food. The menu is very limited for the buffet. The price is per pound of food you take. If you are super hungry, 1.5 pounds of food will be perfect for you. Bread is extra. Overall - great food, hole in the wall.",
+    "cuisine": "Indian",
+    "stars": 5.0,
+    "word_count": 112
+  },
+  {
+    "review_id": "z9pf1Tj4ykoffJg8hUsalQ",
+    "aspect": "food_taste",
+    "true": "negative",
+    "predicted": "neutral",
+    "text": "It's a good thing they are at a great location with a great view because the service is terrible and the food is just ok. The first time I went, I sat in the corner of the bar to get a view of the sunset. There was definitely drama going on between the bartenders and the wait staff. The bartenders openly complained to me about individual wait staff and continued to talk poorly about them behind their backs. The second time I went, the bartender served one beer and asked me to close out because it was the end of her shift even though I was running a tab. She also asked a couple the same thing as they ordered their meal. The third time, I called ahead to check hours on Christmas Eve. The person on the phone said they were closing at 6. I got there at 4 and was only told, \"we are closing now. You got some bad information.\" No apology, just a rude tone. They do have cheap beers and a beautiful sunset view. I keep going back for these, hoping the service will get better. So far, it hasn't...",
+    "cuisine": "Caribbean",
+    "stars": 2.0,
+    "word_count": 195
+  },
+  {
+    "review_id": "xslCOnMRQgCQjuOufVl1Gw",
+    "aspect": "authenticity",
+    "true": "not_mentioned",
+    "predicted": "negative",
+    "text": "This place is pretty lame if you are used to actual indian food. It costs the same amount of money for a small meal here, as it does for a full, hot, freshly cooked meal at an indian restaurant. The portions are tiny, I was not satisfied with what i was given at all, It lacked flavor, and the amount you get is a joke. I only weigh 130 lbs and it felt like half a meal to me. Its a nice idea, to have an indian restaurant on market street. But honestly this place is a crazy waste of your money, go to india grille, or some other real indian restaurant, there are plenty of options. I will say, if you are in a pinch, the food is absolutely edible, and really not all that bad. Its like some decent food you would find at the airport, with silly high prices for very small portions. But at the airport you would expect that, on market street... not so much.",
+    "cuisine": "Indian",
+    "stars": 1.0,
+    "word_count": 170
+  },
+  {
+    "review_id": "KJd2PuXSqnllXgGK4PdSUg",
+    "aspect": "ambiance",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "We stumbled upon this place by a complete accident while looking for sone where to have dinner while visiting my daughter in Philadelphia. Between the experience , music , decorations , hospitality I have to rate it s perfect five stars.",
+    "cuisine": "Mediterranean",
+    "stars": 5.0,
+    "word_count": 41
+  },
+  {
+    "review_id": "-6YRkhN4CXOjhB6p30wjqQ",
+    "aspect": "food_taste",
+    "true": "not_mentioned",
+    "predicted": "positive",
+    "text": "First experience with Ethiopian food. Yummers. Super nice people here. And the coffee....wow...it will bring me back.",
+    "cuisine": "Ethiopian",
+    "stars": 5.0,
+    "word_count": 17
+  },
+  {
+    "review_id": "3qesjJVg3n3JP-bJqzZerw",
+    "aspect": "food_taste",
+    "true": "neutral",
+    "predicted": "positive",
+    "text": "I love Mumbai Bistro! I work a few blocks away and their super fast, free delivery is a Godsend on those days I accidentally leave my lunch at home; I will admit that I sometimes accidentally-on-purpose leave my lunch at home these days just so I have an excuse to call the guys at Mumbai. The food is crazy cheap for Indian, even the worst things on the menu are still decently good, and the small portions keep my pigginess in check. The restaurant itself is reminiscent of a generic chain, but I actually think the food is quite good. Others have mentioned the nan and veggie samosas could be improved. I agree (and will add the tandoori chicken to that list), but they're still yummy. Their chicken biryani, chicken vindaloo, paneer masala, channa masala, tikka masala, mixed veg curry, and basmati are all delicious. I've probably been in or ordered delivery a dozen times since discovering them about 6 months ago and I have never had a disappointing meal. Contrary to some other reviews, I think the food is aromatic and overall very good - some dishes are lacking in heat, but it's nothing a little hot sauce can't remedy. The place is clean, the service is quick and friendly, the food rocks, it's cheap...what more could I ask for?",
+    "cuisine": "Indian",
+    "stars": 4.0,
+    "word_count": 221
+  },
+  {
+    "review_id": "HD_g0Np9d3ywIEavxuGKiQ",
+    "aspect": "portion_size",
+    "true": "neutral",
+    "predicted": "negative",
+    "text": "Serving time was awefully long and food too expensive for portion! Wouldn't recommend",
+    "cuisine": "Afghan",
+    "stars": 1.0,
+    "word_count": 13
+  }
+]

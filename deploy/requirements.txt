@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+numpy==1.26.4
+transformers==5.16.1
+mangum==0.19.0
+
+# CPU-only torch build - the GPU/CUDA build is several GB larger and
+# completely unnecessary for a small single-review inference API
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu

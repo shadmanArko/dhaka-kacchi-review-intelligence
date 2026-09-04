@@ -1,0 +1,18 @@
+# AWS's official Lambda base image - includes the Lambda Runtime Interface
+# Client that handles invocation. App Runner was the original plan (see
+# README, "Deployment challenges") but was blocked at the account level, so
+# this is the only Dockerfile in the project - used for both Lambda and
+# local `docker run` (see README "Serve locally").
+FROM public.ecr.aws/lambda/python:3.11
+
+# ${LAMBDA_TASK_ROOT} is /var/task - this base image already sets it as
+# the working directory
+COPY requirements.txt ${LAMBDA_TASK_ROOT}
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app/ ${LAMBDA_TASK_ROOT}/app/
+COPY static/ ${LAMBDA_TASK_ROOT}/static/
+COPY model_weights/ ${LAMBDA_TASK_ROOT}/model_weights/
+
+# Points at the `handler` object in app/main.py (Mangum-wrapped FastAPI app)
+CMD ["app.main.handler"]

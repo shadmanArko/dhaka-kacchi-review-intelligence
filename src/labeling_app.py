@@ -17,8 +17,8 @@ import json
 import os
 from flask import Flask, request, redirect, url_for, render_template_string
 
-SAMPLE_FILE = "gold_sample.json"
-OUTPUT_FILE = "gold_labels.jsonl"
+SAMPLE_FILE = "../data/processed/gold_sample.json"
+OUTPUT_FILE = "../data/processed/gold_labels.jsonl"
 
 ASPECTS = [
     ("food_taste", "Food / Taste"),

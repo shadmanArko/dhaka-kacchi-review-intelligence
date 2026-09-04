@@ -1,0 +1,63 @@
+{
+  "test_set_size": 65,
+  "before": {
+    "per_aspect": {
+      "food_taste": {
+        "accuracy": 0.7692307692307693,
+        "macro_f1": 0.5466897233201581
+      },
+      "service": {
+        "accuracy": 0.8,
+        "macro_f1": 0.5380672498633133
+      },
+      "price": {
+        "accuracy": 0.8461538461538461,
+        "macro_f1": 0.6430272108843538
+      },
+      "portion_size": {
+        "accuracy": 0.8,
+        "macro_f1": 0.47500000000000003
+      },
+      "authenticity": {
+        "accuracy": 0.8769230769230769,
+        "macro_f1": 0.5576923076923077
+      },
+      "ambiance": {
+        "accuracy": 0.7538461538461538,
+        "macro_f1": 0.5311685064123174
+      }
+    },
+    "mean_accuracy": 0.8076923076923078,
+    "mean_macro_f1": 0.5486074996954083
+  },
+  "after": {
+    "per_aspect": {
+      "food_taste": {
+        "accuracy": 0.8153846153846154,
+        "macro_f1": 0.5900709219858156
+      },
+      "service": {
+        "accuracy": 0.8,
+        "macro_f1": 0.573015873015873
+      },
+      "price": {
+        "accuracy": 0.8923076923076924,
+        "macro_f1": 0.7056623931623931
+      },
+      "portion_size": {
+        "accuracy": 0.9230769230769231,
+        "macro_f1": 0.5906084656084656
+      },
+      "authenticity": {
+        "accuracy": 0.9538461538461539,
+        "macro_f1": 0.6399484950909383
+      },
+      "ambiance": {
+        "accuracy": 0.8461538461538461,
+        "macro_f1": 0.6709263854425145
+      }
+    },
+    "mean_accuracy": 0.8717948717948718,
+    "mean_macro_f1": 0.628372089051
+  }
+}

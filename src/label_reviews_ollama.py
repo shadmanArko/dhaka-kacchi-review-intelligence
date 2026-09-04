@@ -26,8 +26,8 @@ OLLAMA_URL = "http://localhost:11434/api/chat"  # Ollama's native API - more rel
 MODEL = "gpt-oss:20b"
 BATCH_SIZE = 6            # smaller than the Groq version - local reasoning + generation is
                           # slower per-token, so smaller batches finish more reliably
-INPUT_FILE = "data_processed.json"
-OUTPUT_FILE = "labels_weak.jsonl"
+INPUT_FILE = "../data/processed/data_processed.json"
+OUTPUT_FILE = "../data/processed/labels_weak.jsonl"
 MAX_RETRIES_PER_BATCH = 3
 MAX_TOKENS = 6000          # generous headroom - reasoning models can burn a lot of tokens
                            # "thinking" before the actual answer; no cost concern running locally

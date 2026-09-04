@@ -124,12 +124,12 @@ def main():
     device = get_device()
     print(f"Using device: {device}")
 
-    with open("data/processed/data_processed.json", encoding="utf-8") as f:
+    with open("../data/processed/data_processed.json", encoding="utf-8") as f:
         reviews = json.load(f)
     text_by_id = {r["review_id"]: r["text"] for r in reviews}
 
-    weak = load_jsonl("data/processed/labels_weak.jsonl")
-    gold = load_jsonl("data/processed/gold_labels.jsonl")
+    weak = load_jsonl("../data/processed/labels_weak.jsonl")
+    gold = load_jsonl("../data/processed/gold_labels.jsonl")
     gold_ids = set(gold.keys())
 
     all_train_ids = [rid for rid in weak.keys() if rid not in gold_ids and rid in text_by_id]
@@ -242,16 +242,16 @@ def main():
     print(f"Mean macro F1: {overall_f1:.3f}")
 
     import os
-    os.makedirs("results", exist_ok=True)
-    with open("results/finetuned_results.json", "w", encoding="utf-8") as f:
+    os.makedirs("../results", exist_ok=True)
+    with open("../results/finetuned_results.json", "w", encoding="utf-8") as f:
         json.dump(
             {"per_aspect": results, "overall_accuracy": overall_acc, "overall_macro_f1": overall_f1},
             f, indent=2,
         )
     print("\nSaved results/finetuned_results.json")
 
-    os.makedirs("model_multihead", exist_ok=True)
-    torch.save(model.state_dict(), "model_multihead/model.pt")
+    os.makedirs("../model_multihead", exist_ok=True)
+    torch.save(model.state_dict(), "../model_multihead/model.pt")
     tokenizer.save_pretrained("model_multihead")
     print("Saved model to model_multihead/")
 

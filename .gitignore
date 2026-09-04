@@ -10,16 +10,35 @@ __pycache__/
 .python-version
 
 # Large/raw data - don't bloat the git repo or leak the full Yelp dump
-data/raw/yelp_academic_dataset_review.json
+data/raw/*
+!data/raw/.gitkeep
 *.tar
+
+# Intermediate, regenerable data (produced by src/filter_reviews.py from the
+# raw Yelp dump) - large, and not the committed cleaned dataset
+data/interim/*
+!data/interim/.gitkeep
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Model artifacts (usually too large for git - upload to Hugging Face Hub instead, like your dish classifier)
+# Model artifacts - large binaries, hosted on Hugging Face Hub instead
+# (see README for the model link); the directories are kept via .gitkeep
+# so the expected local layout is documented without bloating git.
+model_multihead/*
+!model_multihead/.gitkeep
+model_multihead_goldtuned/*
+!model_multihead_goldtuned/.gitkeep
+!model_multihead_goldtuned/README.md
+deploy/model_weights/*
+!deploy/model_weights/.gitkeep
 models/*.bin
 models/*.safetensors
 models/checkpoint-*/
+
+# AWS CLI installer / one-off local artifacts that shouldn't end up in a repo
+AWSCLIV2.pkg
+response.json
 
 # OS/editor cruft
 .DS_Store

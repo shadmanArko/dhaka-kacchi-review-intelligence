@@ -57,8 +57,8 @@ MAX_RETRIES = 6
 # Maximum output tokens.
 MAX_OUTPUT_TOKENS = 1200
 
-INPUT_FILE = "data_processed.json"
-OUTPUT_FILE = "labels_weak.jsonl"
+INPUT_FILE = "../data/processed/data_processed.json"
+OUTPUT_FILE = "../data/processed/labels_weak.jsonl"
 
 
 ASPECTS = [
